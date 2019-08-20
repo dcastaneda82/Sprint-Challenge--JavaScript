@@ -29,14 +29,28 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. Describe the biggest difference between `.forEach` & `.map`.
+forEach works like a for loop where it goes through the whole array until it finds its target returning the array in individual lines. 
+
+.map works similiarly but instead creates a whole new array with the targeted elements.
 
 2. What is the difference between a function and a method?
 
+Function allows us to create the condition in witch methods are in. Methods allow us to create an action that help funtioncs acchieve thier desired goal.
+
 3. What is closure?
+
+closure gives us access to an outer function from within a funtion.
 
 4. Describe the four rules of the 'this' keyword.
 
+Window/Global Object Binding is when the scope is global so this binds to the window/cpnsole.
+Implicit Binding is when a function is called by a proceding dot so the object before the dot is 'this'.
+New binding happens when a constructor function is used so when we create an object it can be returned by the constructor.
+Explicit binding is when we use keywords '.call' and '.apply'.
+
 5. Why do we need super() in an extended class?
+
+Super() allows us to have inheritance with classes like in ccontructor functions.
 
 ## Project Set up
 
